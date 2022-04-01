@@ -2,8 +2,8 @@
   <div class="w-[268px]">
     <a-input size="large" :bordered="false" class="search">
       <template #suffix>
-        <div class="flex hover:bg-tips-light rounded-md p-2 cursor-pointer">
-          <search-outlined class="text-content" />
+        <div class="flex hover:bg-light rounded-md p-2 cursor-pointer">
+          <search-outlined class="text-main" />
         </div>
       </template>
     </a-input>
@@ -21,6 +21,6 @@ export default defineComponent({
 
 <style scoped>
 .search {
-  @apply rounded-[8px] border border-solid border-tips hover:border hover:border-tips !important;
+  @apply h-[40px] rounded-[8px] border border-solid border-tips hover:border hover:border-border !important;
 }
 </style>
