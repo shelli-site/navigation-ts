@@ -1,4 +1,7 @@
 <template>
+  {{ VERSION }}
+  {{ BUILD_DATE }}
+  {{ thisYear }}
   <a-tag>分类1</a-tag>
   <a-tag>分类2</a-tag>
   <a-tag>分类3</a-tag>

@@ -4,7 +4,6 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     SearchInput: typeof import('./src/components/SearchInput.vue')['default']
   }
 }
